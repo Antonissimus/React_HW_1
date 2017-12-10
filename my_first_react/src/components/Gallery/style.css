@@ -1,0 +1,45 @@
+.gallery {
+    display: flex;
+    padding: 0;
+    flex-flow: row wrap;
+}
+
+.gallery__item {
+    position: relative;
+    flex: 1 1 100px;
+    margin: 8px 8px;
+    list-style: none;
+    box-shadow: 0 0 2px 2px rgba(33, 33, 33, .5);
+}
+
+.chips {
+    display: flex;
+    padding: 0;
+}
+
+.chips__item {
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+.button__del {
+    position: absolute;
+    background-color: #ff5722;
+    color: #fff;
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    box-shadow: 0 2px 2px 0 rgba(33, 33, 33, .5);
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
